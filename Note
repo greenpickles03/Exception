@@ -1,0 +1,35 @@
+//Exception Handling in Java
+Exception handling in Java is a mechanism that allows developers to manage runtime errors, ensuring the normal flow of
+the application. It involves the use of keywords such as try, catch, finally, throw, and throws.
+//Exception
+An exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions.
+all exception in java is a object of the class Throwable. The Throwable class has two main subclasses: Error and Exception.
+// Types of Exceptions
+1. Checked Exceptions: These are exceptions that are checked at compile-time. Examples include IOException, SQLException.
+2. Unchecked Exceptions: These are exceptions that occur at runtime and are not checked at compile-time.
+Examples include NullPointerException, ArithmeticException.
+3. Errors: These are serious problems that a reasonable application should not try to catch.
+Examples include OutOfMemoryError, StackOverflowError.
+//Exception Handling Keywords
+1. try: The try block contains the code that may throw an exception.
+2. catch: The catch block is used to handle the exception thrown by the try block.
+3. finally: The finally block is used to execute important code such as closing resources, regardless of whether an
+exception occurred or not.
+4. throw: The throw keyword is used to explicitly throw an exception, usually throw is inside the method and the basic
+syntax of throw is throw new ArithmeticException("Bata ka pa, bawal bumoto.");.
+5. throws: The throws keyword is used in method declarations to indicate that a method may throw one or more exceptions.
+
+
+START
+  |
+  v
+ TRY block
+  |
+  +-- No Error --> skip catch --> go to FINALLY --> END
+  |
+  +-- Error Occurs -->
+        |
+        +-- Has matching catch? --> Execute catch --> FINALLY --> END
+        |
+        +-- No matching catch? --> FINALLY --> Program ends with error
+//Example of Exception Handling
