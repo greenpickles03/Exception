@@ -8,7 +8,7 @@ all exception in java is a object of the class Throwable. The Throwable class ha
 1. Checked Exceptions: These are exceptions that are checked at compile-time so that java force to use try and catch throws.
 Examples include IOException, SQLException.
 2. Unchecked Exceptions: These are exceptions that occur at runtime and are not checked at compile-time meaning
-java not to force to use try and catch or throws. Examples include NullPointerException, ArithmeticException.
+java not to force to use try and catch or throws.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Examples include NullPointerException, ArithmeticException.
 3. Errors: These are serious problems that a reasonable application should not try to catch.
 Examples include OutOfMemoryError, StackOverflowError.
 //Exception Handling Keywords
