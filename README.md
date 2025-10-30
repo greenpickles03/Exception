@@ -3,7 +3,7 @@
 This project demonstrates the concept of exception handling in Java. It includes examples of using `try`, `catch`, `finally`, `throw`, and `throws` keywords to handle runtime errors and ensure the normal flow of the application.
 
 ## Project Structure
-
+````
 ExceptionHandling/
 ├── pom.xml
 ├── src/
@@ -19,6 +19,7 @@ ExceptionHandling/
 │               └── exception/
 │                   └── ExampleTest.java
 └── README.md
+````
 
 ## Features
 
