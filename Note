@@ -10,7 +10,7 @@ or throws.
 Examples include IOException, SQLException.
 2. Unchecked Exceptions: These are exceptions that occur at runtime and are not checked at compile-time meaning
 java not to force to use try and catch or throws.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Examples include NullPointerException, ArithmeticException.
-3. Errors: These are serious problems that a reasonable application should not try to catch.
+3. Errors: These represent serious system-level problems that you should NOT catch in code.
 Examples include OutOfMemoryError, StackOverflowError.
 //Exception Handling Keywords
 1. try: The try block contains the code that may throw an exception.
