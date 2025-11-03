@@ -5,7 +5,8 @@ the application. It involves the use of keywords such as try, catch, finally, th
 An exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions.
 all exception in java is a object of the class Throwable. The Throwable class has two main subclasses: Error and Exception.
 // Types of Exceptions
-1. Checked Exceptions: These are exceptions that are checked at compile-time so that java force to use try and catch throws.
+1. Checked Exceptions: These are exceptions that are checked at compile-time so that java force to use try and catch
+or throws.
 Examples include IOException, SQLException.
 2. Unchecked Exceptions: These are exceptions that occur at runtime and are not checked at compile-time meaning
 java not to force to use try and catch or throws.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Examples include NullPointerException, ArithmeticException.
